@@ -1,0 +1,21 @@
+.info__wrapper {
+    background-image: url('../img/img5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info {
+    text-align: center;
+    padding: 5rem 0;
+}
+.info__title {
+    margin-bottom: 0;
+    text-shadow: .2rem .2rem .2rem var(--sub-text-color);
+}
+@media screen and (min-width: 1024px)  {
+    .info {
+        padding: 10rem 0;
+    }
+}
+
+
